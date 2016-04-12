@@ -1,0 +1,5 @@
+add_lunch_combo mk_nx513j-eng
+add_lunch_combo mk_nx513j-userdebug
+
+add_lunch_combo cm_nx513j-eng
+add_lunch_combo cm_nx513j-userdebug
