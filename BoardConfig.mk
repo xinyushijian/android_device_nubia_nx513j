@@ -77,11 +77,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # 32-bit or 64-bit), the following line should be deleted
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 
-# Chromium
-#PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
-#USE_PREBUILT_CHROMIUM := 1
-#-include prebuilts/chromium/nx513j/chromium_prebuilt.mk
-
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
@@ -108,7 +103,6 @@ TARGET_GPS_HAL_PATH := $(LOCAL_PATH)/gps
 TARGET_NO_RPC := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 # Lights
